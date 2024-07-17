@@ -25,6 +25,8 @@ def apagar_produto():
     listar_produtos()
     print("-"*50)
     cod_produto = input("Digite o código do produto que você gostaria de apagar: ")
+
+    # Criando a lista temporária!
     lista_temporaria = list()
 
     # Adiciona todos os dados em uma nova lista
